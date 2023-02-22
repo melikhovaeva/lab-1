@@ -47,17 +47,17 @@ header.header>(a.header__logo.logo>img.logo__img)+(nav.header__navigation.naviga
 ![Card](img/card.jpg)
 
 ```
-section.advantages>ul.advantages__list*3>li.advantages__item>img.advantages__icon+h2.advantages__title+p.advantages__description
+section.advantages>ul.advantages__list>li.advantages__item*3>img.advantages__icon+h2.advantages__title+p.advantages__description
 ```
 
 ![Forma](img/forma.jpg)
 
 ```
-section.feedback>form.feedback__forma>label.feedback__shell*4+input.feedback__submit+p.feedback__notice>input.feedback__input
+section.feedback>form.feedback__form.form>(label.form__shell>input.input__input)*4+input.form__submit+p.form__notice
 ```
 
 ![Footer](img/footer.jpg)
 
 ```
-footer.footer>div.footer__wrapper>(a.footer__logo.logo>img.logo__img)+(ul.footer__list*3>li.footer__item*3)
+footer.footer>div.wrapper>(a.footer__logo.logo>img.logo__img)+(ul.footer__list*3>li.footer__item*3>a.footer__link)
 ```
